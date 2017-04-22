@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 1024M
+  instances: 1
+  domain: mybluemix.net
+  name: bluebankbyui
+  host: bluebankbyui
+  disk_quota: 1024M
+  services:
+  - Compose for PostgreSQL-ry
+  - availability-monitoring-auto
